@@ -1,0 +1,1 @@
+This project implements de Quotient-Difference to aproximate the roots of a polynomial
