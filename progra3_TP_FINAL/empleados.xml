@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="16.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.HashSet">
+  <void method="add">
+   <object class="model.usuario.Empleado">
+    <void property="contrasena">
+     <string>12345</string>
+    </void>
+    <void property="edad">
+     <int>21</int>
+    </void>
+    <void property="email">
+     <string>empleado2@gmail.com</string>
+    </void>
+    <void property="name">
+     <string>Thread-8</string>
+    </void>
+    <void property="nombre">
+     <string>Empleado2</string>
+    </void>
+    <void property="nombreUsuario">
+     <string>Empleado2</string>
+    </void>
+    <void property="telefono">
+     <string>12342131</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="model.usuario.Empleado">
+    <void property="contrasena">
+     <string>12345</string>
+    </void>
+    <void property="edad">
+     <int>20</int>
+    </void>
+    <void property="email">
+     <string>empleado1@gmail.com</string>
+    </void>
+    <void property="name">
+     <string>Thread-6</string>
+    </void>
+    <void property="nombre">
+     <string>Empleado1</string>
+    </void>
+    <void property="nombreUsuario">
+     <string>Empleado1</string>
+    </void>
+    <void property="telefono">
+     <string>42231</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>TPFinalP3</groupId>
+  <artifactId>TpProgra3</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <description>Project for TpProgra3</description>
+  <build>
+    <sourceDirectory>src/</sourceDirectory>
+    <resources>
+      <resource>
+        <directory>${basedir}</directory>
+        <includes>
+          <include>*</include>
+        </includes>
+      </resource>
+    </resources>
+      <plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <configuration>
+                  <source>8</source>
+                  <target>8</target>
+              </configuration>
+          </plugin>
+      </plugins>
+      <outputDirectory>classes/</outputDirectory>
+  </build>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+    </dependencies>
+</project>

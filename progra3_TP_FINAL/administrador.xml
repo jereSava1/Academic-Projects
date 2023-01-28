@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="16.0.2" class="java.beans.XMLDecoder">
+ <object class="model.usuario.Administrador">
+  <void property="ID">
+   <string>admin</string>
+  </void>
+  <void property="contrasena">
+   <string>admin</string>
+  </void>
+  <void property="email">
+   <string>admin</string>
+  </void>
+  <void property="name">
+   <string>Thread-5</string>
+  </void>
+  <void property="nombreUsuario">
+   <string>admin</string>
+  </void>
+ </object>
+</java>
